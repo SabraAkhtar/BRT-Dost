@@ -9,6 +9,7 @@
     "start:server": "npm --prefix server start",
     "seed": "npm --prefix server run seed",
     "test:server": "npm --prefix server test",
+    "build": "cd client && npm install && npm run build",
     "build:client": "npm --prefix client run build"
   },
   "keywords": [

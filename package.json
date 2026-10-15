@@ -1,0 +1,23 @@
+{
+  "name": "brt-dost",
+  "version": "1.0.0",
+  "description": "BRT Dost — Check Before You Leave | Peshawar BRT Full-Stack Platform",
+  "private": true,
+  "scripts": {
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start:server": "npm --prefix server start",
+    "seed": "npm --prefix server run seed",
+    "test:server": "npm --prefix server test",
+    "build:client": "npm --prefix client run build"
+  },
+  "keywords": [
+    "peshawar-brt",
+    "transit-verification",
+    "trust-engine",
+    "full-stack",
+    "civic-tech"
+  ],
+  "author": "BRT Dost Team",
+  "license": "ISC"
+}

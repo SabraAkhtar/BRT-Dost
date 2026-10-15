@@ -25,7 +25,8 @@ const stationsData = [
   { code: 'ST-16', name: 'Bab-e-Peshawar', nameUrdu: 'باب پشاور', isInterchange: false, connectedRoutes: ['ML-01'], facilities: ['Zu Card Kiosk', 'Elevator', 'Flyover Hub'], locationSummary: 'Ring Road Jamrud Junction flyover' },
   { code: 'ST-17', name: 'Phase 3 Chowk', nameUrdu: 'فیز ۳ چوک', isInterchange: true, connectedRoutes: ['ML-01', 'F-01'], facilities: ['Zu Card Kiosk', 'Elevator', 'Feeder Transfer'], locationSummary: 'Entrance to Hayatabad Township' },
   { code: 'ST-18', name: 'Mall of Hayatabad', nameUrdu: 'مال آف حیات آباد', isInterchange: true, connectedRoutes: ['ML-01', 'ER-01', 'F-01'], facilities: ['Zu Card Kiosk', 'Elevator', 'Commercial Plaza Transfer'], locationSummary: 'Hayatabad Phase 5 commercial center' },
-  { code: 'ST-19', name: 'Karkhano Market', nameUrdu: 'کارخانو مارکیٹ', isInterchange: true, connectedRoutes: ['ML-01', 'ER-01'], facilities: ['Zu Card Kiosk', 'Terminal Depot', 'Elevator', 'Restrooms', 'Security Post'], locationSummary: 'Western terminus near Khyber Pass industrial gateway' }
+  { code: 'ST-19', name: 'Karkhano Market', nameUrdu: 'کارخانو مارکیٹ', isInterchange: true, connectedRoutes: ['ML-01', 'ER-01'], facilities: ['Zu Card Kiosk', 'Terminal Depot', 'Elevator', 'Restrooms', 'Security Post'], locationSummary: 'Western terminus near Khyber Pass industrial gateway' },
+  { code: 'ST-20', name: 'Wazir Colony (Feeder Stop)', nameUrdu: 'وزیر کالونی', isInterchange: false, connectedRoutes: ['F-02', 'ML-01'], facilities: ['Bus Shelter', 'Wheelchair Ramp', 'Schedule Board'], locationSummary: 'Wazir Colony / Kohat Road feeder corridor connecting to Malik Saad Shaheed Station' }
 ];
 
 const routesData = [
